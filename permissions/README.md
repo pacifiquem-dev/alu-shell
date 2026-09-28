@@ -15,3 +15,4 @@ This folder contains scripts related to shell permissions
 - `11-directories_permissions`: Adds execute permission to all subdirectories of the current directory for owner, group, and others. Regular files remain unchanged.
 - `12-directory_permissions`: Creates a directory `my_dir` with permissions 751.
 - `13-change_group`: Changes the group owner of the file `hello` to `school`.
+- `14-change_owner_and_group`: Changes the owner to `vincent` and the group to `staff` for all files and directories in the working directory.
