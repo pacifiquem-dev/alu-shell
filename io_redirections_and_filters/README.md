@@ -10,3 +10,4 @@ This project contains scripts that demonstrate basic shell I/O redirections and 
 - `3-twofiles`: Displays the content of `/etc/passwd` and `/etc/hosts`.
 - `4-lastlines`: Displays the last 10 lines of `/etc/passwd`.
 - `5-firstlines`: Displays the first 10 lines of `/etc/passwd`.
+- `1-confused_smiley`: Displays a confused smiley `"(Ôo)'"`.
