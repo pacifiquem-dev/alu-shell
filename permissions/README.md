@@ -9,3 +9,4 @@ This folder contains scripts related to shell permissions
 - `5-execute`: Adds execute permission to the file `hello` for the owner.
 - `6-multiple_permissions`: Adds execute permission to the owner and group, and read permission to others for the file `hello`.
 - `7-everybody`: Adds execute permission to the owner, group, and others for the file `hello`.
+- `8-James_Bond`: Sets permissions so owner and group have none, while others have full (read, write, execute) access to `hello`.
