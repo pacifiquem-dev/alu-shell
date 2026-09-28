@@ -12,3 +12,4 @@ This folder contains scripts related to shell permissions
 - `8-James_Bond`: Sets permissions so owner and group have none, while others have full (read, write, execute) access to `hello`.
 - `9-John_Doe`: Sets the mode of `hello` to `-rwxr-x-wx` (numeric 753).
 - `10-mirror_permissions`: Sets the mode of `hello` to match the mode of `olleh`.
+- `11-directories_permissions`: Adds execute permission to all subdirectories of the current directory for owner, group, and others. Regular files remain unchanged.
