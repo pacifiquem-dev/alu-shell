@@ -13,3 +13,4 @@ This folder contains scripts related to shell permissions
 - `9-John_Doe`: Sets the mode of `hello` to `-rwxr-x-wx` (numeric 753).
 - `10-mirror_permissions`: Sets the mode of `hello` to match the mode of `olleh`.
 - `11-directories_permissions`: Adds execute permission to all subdirectories of the current directory for owner, group, and others. Regular files remain unchanged.
+- `12-directory_permissions`: Creates a directory `my_dir` with permissions 751.
