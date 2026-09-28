@@ -15,3 +15,4 @@ This project contains scripts that demonstrate basic shell I/O redirections and 
 - `3-twofiles`: Displays the content of both `/etc/passwd` and `/etc/hosts`.
 - `4-lastlines`: Displays the last 10 lines of the `/etc/passwd` file.
 - `5-firstlines`: Displays the first 10 lines of the `/etc/passwd` file.
+- `6-third_line`: Displays the third line of the file `iacta` using `head` and `tail`.
