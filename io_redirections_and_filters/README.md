@@ -44,3 +44,5 @@ This script displays all lines from `/etc/passwd` that do not contain the string
 This script displays all lines in `/etc/ssh/sshd_config` that start with a letter (A–Z or a–z). It uses `grep '^[[:alpha:]]'` to filter out comments and non-letter lines.
 ## 19-AZ
 This script replaces all characters `A` with `Z` and `c` with `e` from the input using `tr 'Ac' 'Ze'`.
+## 20-hiago
+This script removes all occurrences of the letters `c` and `C` from input using `tr -d 'cC'`.
