@@ -1,2 +1,5 @@
 #!/bin/bash
-find . -type f -name "*.gif" -printf '%f\n' | sed 's/\.gif$//' | LC_ALL=C sort -f
+find . -type f -name '*.gif' -printf '%f\n' | while IFS= read -r name; do
+    base="${name%.gif}"
+    printf '%s\t%s\n' "${base,,}" "$base"
+done | LC_ALL=C sort -t $'\t' -k1,1 -k2,2 | cut -f2-
