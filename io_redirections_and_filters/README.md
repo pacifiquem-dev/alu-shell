@@ -52,3 +52,5 @@ This script reverses its input using the `rev` command. Each line of input is pr
 This script displays all users and their home directories from `/etc/passwd`, sorted alphabetically by username. It uses `cut -d: -f1,6 /etc/passwd | sort`.
 ## 23-empty_casks
 This script finds all empty files and directories in the current directory and its subdirectories. It prints only the names (including hidden ones), one per line, using `find . -empty -printf "%f\n"`.
+## 24-gifs
+This script lists all `.gif` files in the current directory and subdirectories, including hidden ones. It prints only the filenames without the `.gif` extension, sorted case‑insensitively, one per line. It uses `find . -type f -name "*.gif" -printf "%f\n" | sed 's/\.gif$//' | sort -f`.
