@@ -24,3 +24,6 @@ This script runs the command `ls -la` and writes its output into a file named `l
 - If `ls_cwd_content` does not exist, it will be created.
 ## 9-duplicate_last_line
 This script duplicates the last line of the file `iacta` by appending it again at the end of the file using `tail -n 1` and `>>`.
+## 10-no_more_js
+This script deletes all regular files with a `.js` extension in the current directory and its subfolders using `find . -type f -name "*.js" -delete`. Directories are not affected.
+
