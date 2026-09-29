@@ -22,4 +22,5 @@ This script runs the command `ls -la` and writes its output into a file named `l
 
 - If `ls_cwd_content` already exists, it will be overwritten.
 - If `ls_cwd_content` does not exist, it will be created.
-
+## 9-duplicate_last_line
+This script duplicates the last line of the file `iacta` by appending it again at the end of the file using `tail -n 1` and `>>`.
