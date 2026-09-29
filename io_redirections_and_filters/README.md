@@ -32,3 +32,5 @@ This script counts the number of directories and subdirectories in the current d
 This script displays the 10 newest files in the current directory, sorted from newest to oldest, using `ls -t | head -n 10`. Each file is shown on its own line.
 ## 13-unique
 This script takes a list of words (one per line) and prints only those that appear exactly once. The output is sorted alphabetically, one word per line. It uses `sort | uniq -u`.
+## 14-findthatword
+This script displays all lines from `/etc/passwd` that contain the string `root` using `grep`.
