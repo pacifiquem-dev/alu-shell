@@ -40,3 +40,5 @@ This script counts the number of lines in `/etc/passwd` that contain the string 
 This script displays all lines from `/etc/passwd` containing the string `root` and the three lines immediately following each match, using `grep -A 3`.
 ## 17-hidethisword
 This script displays all lines from `/etc/passwd` that do not contain the string `bin` using `grep -v`.
+## 18-letteronly
+This script displays all lines in `/etc/ssh/sshd_config` that start with a letter (A–Z or a–z). It uses `grep '^[[:alpha:]]'` to filter out comments and non-letter lines.
