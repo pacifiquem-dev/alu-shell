@@ -50,3 +50,5 @@ This script removes all occurrences of the letters `c` and `C` from input using 
 This script reverses its input using the `rev` command. Each line of input is printed with its characters in reverse order.
 ## 22-users_and_homes
 This script displays all users and their home directories from `/etc/passwd`, sorted alphabetically by username. It uses `cut -d: -f1,6 /etc/passwd | sort`.
+## 23-empty_casks
+This script finds all empty files and directories in the current directory and its subdirectories. It prints only the names (including hidden ones), one per line, using `find . -empty -printf "%f\n"`.
