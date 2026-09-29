@@ -56,3 +56,5 @@ This script finds all empty files and directories in the current directory and i
 This script lists all `.gif` files in the current directory and subdirectories, including hidden ones. It prints only the filenames without the `.gif` extension, sorted case‑insensitively, one per line. It uses `find . -type f -name "*.gif" -printf "%f\n" | sed 's/\.gif$//' | sort -f`.
 ## 25-acrostic
 This script decodes acrostics by printing the first character of each line from input using `cut -c1`. The decoded message ends with a newline.
+## 25-acrostic
+This script decodes acrostics by printing the first character of each line from input using `cut -c1`. The decoded message ends with a newline.
