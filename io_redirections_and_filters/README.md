@@ -58,3 +58,5 @@ This script lists all `.gif` files in the current directory and subdirectories, 
 This script decodes acrostics by printing the first character of each line from input using `cut -c1`. The decoded message ends with a newline.
 ## 25-acrostic
 This script decodes acrostics by printing the first character of each line from input using `cut -c1`. The decoded message ends with a newline.
+## 26-hosts_requests
+This script parses web server logs in TSV format and displays the 11 hosts or IP addresses that made the most requests. It extracts the first field (host/IP), counts requests, sorts them in descending order, and prints the top 11.
