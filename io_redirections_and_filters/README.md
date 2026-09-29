@@ -26,4 +26,5 @@ This script runs the command `ls -la` and writes its output into a file named `l
 This script duplicates the last line of the file `iacta` by appending it again at the end of the file using `tail -n 1` and `>>`.
 ## 10-no_more_js
 This script deletes all regular files with a `.js` extension in the current directory and its subfolders using `find . -type f -name "*.js" -delete`. Directories are not affected.
-
+## 11-directories
+This script counts the number of directories and subdirectories in the current directory, excluding `.` and `..`. Hidden directories are included in the count.
