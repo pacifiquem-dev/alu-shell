@@ -48,3 +48,5 @@ This script replaces all characters `A` with `Z` and `c` with `e` from the input
 This script removes all occurrences of the letters `c` and `C` from input using `tr -d 'cC'`.
 ## 21-reverse
 This script reverses its input using the `rev` command. Each line of input is printed with its characters in reverse order.
+## 22-users_and_homes
+This script displays all users and their home directories from `/etc/passwd`, sorted alphabetically by username. It uses `cut -d: -f1,6 /etc/passwd | sort`.
