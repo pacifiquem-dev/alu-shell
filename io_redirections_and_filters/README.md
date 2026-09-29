@@ -36,3 +36,5 @@ This script takes a list of words (one per line) and prints only those that appe
 This script displays all lines from `/etc/passwd` that contain the string `root` using `grep`.
 ## 15-countthatword
 This script counts the number of lines in `/etc/passwd` that contain the string `bin` using `grep -c`.
+## 16-whatsnext
+This script displays all lines from `/etc/passwd` containing the string `root` and the three lines immediately following each match, using `grep -A 3`.
