@@ -46,3 +46,5 @@ This script displays all lines in `/etc/ssh/sshd_config` that start with a lette
 This script replaces all characters `A` with `Z` and `c` with `e` from the input using `tr 'Ac' 'Ze'`.
 ## 20-hiago
 This script removes all occurrences of the letters `c` and `C` from input using `tr -d 'cC'`.
+## 21-reverse
+This script reverses its input using the `rev` command. Each line of input is printed with its characters in reverse order.
