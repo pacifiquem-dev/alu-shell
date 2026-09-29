@@ -34,3 +34,5 @@ This script displays the 10 newest files in the current directory, sorted from n
 This script takes a list of words (one per line) and prints only those that appear exactly once. The output is sorted alphabetically, one word per line. It uses `sort | uniq -u`.
 ## 14-findthatword
 This script displays all lines from `/etc/passwd` that contain the string `root` using `grep`.
+## 15-countthatword
+This script counts the number of lines in `/etc/passwd` that contain the string `bin` using `grep -c`.
