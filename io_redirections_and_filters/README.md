@@ -17,3 +17,9 @@ This project contains scripts that demonstrate basic shell I/O redirections and 
 - `5-firstlines`: Displays the first 10 lines of the `/etc/passwd` file.
 - `6-third_line`: Displays the third line of the file `iacta` using `head` and `tail`.
 - `7-file`: Creates a file named `\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)` containing the text "Best School".
+## 8-cwd_state
+This script runs the command `ls -la` and writes its output into a file named `ls_cwd_content`.
+
+- If `ls_cwd_content` already exists, it will be overwritten.
+- If `ls_cwd_content` does not exist, it will be created.
+
