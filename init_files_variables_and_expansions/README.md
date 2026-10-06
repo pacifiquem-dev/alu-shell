@@ -10,3 +10,5 @@ After sourcing the script, the shell will look into `/action` last when searchin
 ### 3-paths
 Counts the number of directories in the `$PATH` environment variable.  
 It splits `$PATH` by colons and counts each entry, including empty ones.
+### 4-global_variables
+Lists all environment variables currently defined in the shell using the `printenv` command.
