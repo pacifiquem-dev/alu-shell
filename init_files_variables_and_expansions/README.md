@@ -23,3 +23,6 @@ This variable is exported, so it is available to child processes and other progr
 ### 8-true_knowledge
 Prints the result of adding 128 to the value stored in the environment variable `TRUEKNOWLEDGE`.  
 Uses Bash arithmetic expansion: `echo $((TRUEKNOWLEDGE + 128))`.
+### 9-divide_and_rule
+Prints the result of dividing the environment variable `POWER` by `DIVIDE`.  
+Uses Bash arithmetic expansion: `echo $((POWER / DIVIDE))`.
