@@ -7,3 +7,6 @@ Uses the `$USER` environment variable to determine the username.
 ### 2-path
 Appends `/action` to the end of the `$PATH` environment variable.  
 After sourcing the script, the shell will look into `/action` last when searching for executables.
+### 3-paths
+Counts the number of directories in the `$PATH` environment variable.  
+It splits `$PATH` by colons and counts each entry, including empty ones.
