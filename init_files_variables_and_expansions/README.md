@@ -41,3 +41,6 @@ Uses `printf "%.2f\n" "$NUM"`.
 ### 14-decimal_to_hexadecimal
 Converts a decimal number stored in the environment variable `DECIMAL` into hexadecimal.  
 Uses `printf "%x\n" "$DECIMAL"`.
+### 16-odd
+Prints every other line from the input, starting with the first line.  
+Implemented with `awk 'NR % 2 == 1'`.
