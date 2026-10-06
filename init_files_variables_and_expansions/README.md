@@ -17,3 +17,6 @@ Lists all local variables, environment variables, and functions using the `set` 
 ### 6-create_local_variable
 Creates a local variable named `BEST` with the value `School`.  
 This variable is only available in the current shell session unless exported.
+### 7-create_global_variable
+Creates a global environment variable named `BEST` with the value `School`.  
+This variable is exported, so it is available to child processes and other programs.
