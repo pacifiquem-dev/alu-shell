@@ -20,3 +20,6 @@ This variable is only available in the current shell session unless exported.
 ### 7-create_global_variable
 Creates a global environment variable named `BEST` with the value `School`.  
 This variable is exported, so it is available to child processes and other programs.
+### 8-true_knowledge
+Prints the result of adding 128 to the value stored in the environment variable `TRUEKNOWLEDGE`.  
+Uses Bash arithmetic expansion: `echo $((TRUEKNOWLEDGE + 128))`.
