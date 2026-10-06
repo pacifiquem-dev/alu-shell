@@ -14,3 +14,6 @@ It splits `$PATH` by colons and counts each entry, including empty ones.
 Lists all environment variables currently defined in the shell using the `printenv` command.
 ### 5-local_variables
 Lists all local variables, environment variables, and functions using the `set` command.
+### 6-create_local_variable
+Creates a local variable named `BEST` with the value `School`.  
+This variable is only available in the current shell session unless exported.
