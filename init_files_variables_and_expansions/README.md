@@ -38,3 +38,6 @@ One combination per line, alpha ordered. Script length ≤ 64 characters.
 ### 13-print_float
 Prints the value of the environment variable `NUM` with two decimal places.  
 Uses `printf "%.2f\n" "$NUM"`.
+### 14-decimal_to_hexadecimal
+Converts a decimal number stored in the environment variable `DECIMAL` into hexadecimal.  
+Uses `printf "%x\n" "$DECIMAL"`.
