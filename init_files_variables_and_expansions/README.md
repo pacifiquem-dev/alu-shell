@@ -12,3 +12,5 @@ Counts the number of directories in the `$PATH` environment variable.
 It splits `$PATH` by colons and counts each entry, including empty ones.
 ### 4-global_variables
 Lists all environment variables currently defined in the shell using the `printenv` command.
+### 5-local_variables
+Lists all local variables, environment variables, and functions using the `set` command.
