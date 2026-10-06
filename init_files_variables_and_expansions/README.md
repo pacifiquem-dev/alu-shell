@@ -29,3 +29,6 @@ Uses Bash arithmetic expansion: `echo $((POWER / DIVIDE))`.
 ### 10-love_exponent_breath
 Displays the result of raising the environment variable `BREATH` to the power of `LOVE`.  
 Uses Bash arithmetic expansion: `echo $((BREATH ** LOVE))`.
+### 11-binary_to_decimal
+Converts a binary number stored in the environment variable `BINARY` into decimal.  
+Uses Bash arithmetic expansion with base notation: `echo $((2#$BINARY))`.
