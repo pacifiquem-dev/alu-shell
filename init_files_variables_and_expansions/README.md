@@ -26,3 +26,6 @@ Uses Bash arithmetic expansion: `echo $((TRUEKNOWLEDGE + 128))`.
 ### 9-divide_and_rule
 Prints the result of dividing the environment variable `POWER` by `DIVIDE`.  
 Uses Bash arithmetic expansion: `echo $((POWER / DIVIDE))`.
+### 10-love_exponent_breath
+Displays the result of raising the environment variable `BREATH` to the power of `LOVE`.  
+Uses Bash arithmetic expansion: `echo $((BREATH ** LOVE))`.
