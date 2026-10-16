@@ -64,4 +64,13 @@
 - **Usage:**
   ```bash
   ./10-fizzbuzz | head -20
+### 11-read_and_cut
+- **Location:** `loops_conditions_and_parsing/11-read_and_cut`
+- **Description:** Reads `/etc/passwd` line by line using a `while` loop and prints:
+  - Username
+  - User ID
+  - Home directory
+- **Usage:**
+  ```bash
+  ./11-read_and_cut
 
