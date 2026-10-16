@@ -10,5 +10,12 @@
 - **Usage:**
   ```bash
   ./1-list_your_processes | head -50
+### 2-show_your_bash_pid
+- **Location:** `processes_and_signals/2-show_your_bash_pid`
+- **Description:** Displays lines containing the word "bash" from the process list, allowing you to easily identify the PID of your Bash process.  
+- **Notes:** The third line of the script includes `# shellcheck disable=SC2009` to suppress warnings about using `ps | grep` instead of `pgrep`, as required by the project instructions.
+- **Usage:**
+  ```bash
+  ./2-show_your_bash_pid
 
 
