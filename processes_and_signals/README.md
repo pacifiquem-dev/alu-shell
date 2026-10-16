@@ -29,5 +29,29 @@
 - **Usage:**
   ```bash
   ./4-to_infinity_and_beyond
+### 5-dont_stop_me_now
+- **Location:** `processes_and_signals/5-dont_stop_me_now`
+- **Description:** Stops the `4-to_infinity_and_beyond` process using `kill`.
+- **Usage:**
+  1. In Terminal #0, run:
+     ```bash
+     ./4-to_infinity_and_beyond
+     ```
+  2. In Terminal #1, run:
+     ```bash
+     ./5-dont_stop_me_now
+     ```
+- **Example Output:**
+  - Terminal #0:
+    ```
+    To infinity and beyond
+    To infinity and beyond
+    Terminated
+    ```
+  - Terminal #1:
+    ```
+    sylvain@ubuntu$ ./5-dont_stop_me_now
+    sylvain@ubuntu$
+    ```
 
 
