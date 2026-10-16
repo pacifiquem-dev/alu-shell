@@ -73,4 +73,17 @@
 - **Usage:**
   ```bash
   ./11-read_and_cut
+### 12-tell_the_story_of_passwd
+- **Location:** `loops_conditions_and_parsing/12-tell_the_story_of_passwd`
+- **Description:** Reads `/etc/passwd` line by line using a `while` loop and `IFS=:`. For each user, it prints a formatted story:
+  - Username
+  - Group ID
+  - Home directory
+  - Shell
+  - User ID
+  - Password field
+  - User info
+- **Usage:**
+  ```bash
+  ./12-tell_the_story_of_passwd
 
