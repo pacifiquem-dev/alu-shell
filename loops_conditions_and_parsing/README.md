@@ -22,3 +22,13 @@
 - **Usage:**
   ```bash
   ./5-4_bad_luck_8_is_your_chance
+### 6-superstitious_numbers
+- **Location:** `loops_conditions_and_parsing/6-superstitious_numbers`
+- **Description:** Displays numbers from 1 to 20 using a `while` loop and `case` statement. Prints special messages for certain iterations:
+  - 4 → `bad luck from China`
+  - 9 → `bad luck from Japan`
+  - 17 → `bad luck from Italy`
+- **Usage:**
+  ```bash
+  ./6-superstitious_numbers
+
