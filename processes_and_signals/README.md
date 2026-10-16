@@ -17,5 +17,11 @@
 - **Usage:**
   ```bash
   ./2-show_your_bash_pid
+### 3-show_your_bash_pid_made_easy
+- **Location:** `processes_and_signals/3-show_your_bash_pid_made_easy`
+- **Description:** Displays the PID and process name of processes whose name contains "bash". Uses the `/proc` filesystem instead of `ps`.
+- **Usage:**
+  ```bash
+  ./3-show_your_bash_pid_made_easy
 
 
