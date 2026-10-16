@@ -43,3 +43,15 @@
 - **Usage:**
   ```bash
   ./8-for_ls
+### 9-to_file_or_not_to_file
+- **Location:** `loops_conditions_and_parsing/9-to_file_or_not_to_file`
+- **Description:** Checks the status of the `school` file using `if` and `else` statements.  
+  - If the file does not exist → prints `school file does not exist`.  
+  - If the file exists → prints `school file exists`.  
+    - If empty → prints `school file is empty`.  
+    - If not empty → prints `school file is not empty`.  
+    - If it is a regular file → prints `school is a regular file`.  
+- **Usage:**
+  ```bash
+  ./9-to_file_or_not_to_file
+
