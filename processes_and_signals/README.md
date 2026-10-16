@@ -36,4 +36,7 @@
 ### 6-stop_me_if_you_can
 - **Location:** `processes_and_signals/6-stop_me_if_you_can`
 - **Description:** Stops the `4-to_infinity_and_beyond` process without using `kill` or `killall`. Uses the `/proc` filesystem to send a termination signal.
+### 7-highlander
+- **Location:** `processes_and_signals/7-highlander`
+- **Description:** Displays "To infinity and beyond" indefinitely, with a 2-second pause. Prints "I am invincible!!!" when receiving a SIGTERM signal.
 
