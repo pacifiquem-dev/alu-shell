@@ -1,9 +1,20 @@
 #!/usr/bin/env bash
-# This script lists files in the current directory, showing only the part after the first dash
+# This script lists files in the current directory, showing only the part after the first dash if present
 
-for file in *-*
+for file in *
 do
-  # Cut everything before the first dash and display the rest
-  echo "${file#*-}"
+  # Skip hidden files
+  case "$file" in
+    -*)
+      continue
+      ;;
+  esac
+
+  # If the filename contains a dash, strip everything before the first dash
+  if [[ "$file" == *-* ]]; then
+    echo "${file#*-}"
+  else
+    echo "$file"
+  fi
 done
 
