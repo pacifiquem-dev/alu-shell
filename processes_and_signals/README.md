@@ -42,4 +42,10 @@
 ### 8-beheaded_process
 - **Location:** `processes_and_signals/8-beheaded_process`
 - **Description:** Kills the `7-highlander` process by sending a `SIGKILL` signal using `pkill`.
+### 10-process_and_pid_file
+- **Location:** `processes_and_signals/10-process_and_pid_file`
+- **Description:** Creates `/var/run/myscript.pid` containing its PID. Displays "To infinity and beyond" indefinitely. Handles signals:
+  - **SIGTERM:** Prints "I hate the kill command", deletes the PID file, and terminates.
+  - **SIGINT:** Prints "Y U no love me?!".
+  - **SIGQUIT:** Deletes the PID file and terminates.
 
