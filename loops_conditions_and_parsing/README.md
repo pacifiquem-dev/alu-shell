@@ -54,4 +54,14 @@
 - **Usage:**
   ```bash
   ./9-to_file_or_not_to_file
+### 10-fizzbuzz
+- **Location:** `loops_conditions_and_parsing/10-fizzbuzz`
+- **Description:** Displays numbers from 1 to 100 using a `while` loop. Implements the FizzBuzz rules:
+  - Multiples of 3 → `Fizz`
+  - Multiples of 5 → `Buzz`
+  - Multiples of both 3 and 5 → `FizzBuzz`
+  - Otherwise → the number itself
+- **Usage:**
+  ```bash
+  ./10-fizzbuzz | head -20
 
