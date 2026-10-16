@@ -33,25 +33,7 @@
 - **Location:** `processes_and_signals/5-dont_stop_me_now`
 - **Description:** Stops the `4-to_infinity_and_beyond` process using `kill`.
 - **Usage:**
-  1. In Terminal #0, run:
-     ```bash
-     ./4-to_infinity_and_beyond
-     ```
-  2. In Terminal #1, run:
-     ```bash
-     ./5-dont_stop_me_now
-     ```
-- **Example Output:**
-  - Terminal #0:
-    ```
-    To infinity and beyond
-    To infinity and beyond
-    Terminated
-    ```
-  - Terminal #1:
-    ```
-    sylvain@ubuntu$ ./5-dont_stop_me_now
-    sylvain@ubuntu$
-    ```
-
+### 6-stop_me_if_you_can
+- **Location:** `processes_and_signals/6-stop_me_if_you_can`
+- **Description:** Stops the `4-to_infinity_and_beyond` process without using `kill` or `killall`. Uses the `/proc` filesystem to send a termination signal.
 
