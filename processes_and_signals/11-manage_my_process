@@ -2,15 +2,16 @@
 # Init script that starts, stops, and restarts manage_my_process
 
 PID_FILE="/var/run/my_process.pid"
+DIR="$(cd "$(dirname "$0")" && pwd)"
 
 start() {
-	./manage_my_process &
+	"$DIR/manage_my_process" &
 	echo "$!" > "$PID_FILE"
 }
 
 stop() {
 	if [ -f "$PID_FILE" ]; then
-		pkill -f manage_my_process
+		kill "$(cat "$PID_FILE")" 2>/dev/null
 		rm -f "$PID_FILE"
 	fi
 }
