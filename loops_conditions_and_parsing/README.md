@@ -92,3 +92,10 @@
   ```bash
   ./13-lets_parse_apache_logs | tail -n 10
 /12-tell_the_story_of_passwd
+### 14-dig_the-data
+- **Location:** `loops_conditions_and_parsing/14-dig_the-data`
+- **Description:** Groups visitors by IP and HTTP status code from `apache-access.log` using `awk`. Displays the number of occurrences, IP, and HTTP code in descending order.
+- **Usage:**
+  ```bash
+  ./14-dig_the-data | head -n 10
+
