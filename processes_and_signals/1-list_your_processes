@@ -2,6 +2,7 @@
 # This script displays a list of currently running processes
 # Shows all processes, for all users, in a user-oriented format
 # Displays process hierarchy
+# Show process hierachy
 
-ps -ejH
+ps -eo pid --forest
 
