@@ -31,4 +31,9 @@
 - **Usage:**
   ```bash
   ./6-superstitious_numbers
-
+### 7-clock
+- **Location:** `loops_conditions_and_parsing/7-clock`
+- **Description:** Displays hours from 0 to 12 and minutes from 1 to 59 using nested `while` loops.
+- **Usage:**
+  ```bash
+  ./7-clock | head -n 70
