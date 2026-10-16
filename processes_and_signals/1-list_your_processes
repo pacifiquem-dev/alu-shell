@@ -4,5 +4,5 @@
 # Displays process hierarchy
 # Show process hierachy
 
-ps -eo pid --forest
+ps auxf
 
