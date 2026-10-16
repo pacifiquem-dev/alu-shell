@@ -16,4 +16,9 @@
 - **Usage:**
   ```bash
   ./4-if_9_say_hi
-
+### 5-4_bad_luck_8_is_your_chance
+- **Location:** `loops_conditions_and_parsing/5-4_bad_luck_8_is_your_chance`
+- **Description:** Loops from 1 to 10 using a `while` loop. Prints `bad luck` on the 4th iteration, `good luck` on the 8th iteration, and `Best School` for all other iterations.
+- **Usage:**
+  ```bash
+  ./5-4_bad_luck_8_is_your_chance
