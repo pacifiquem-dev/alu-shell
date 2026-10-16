@@ -23,5 +23,11 @@
 - **Usage:**
   ```bash
   ./3-show_your_bash_pid_made_easy
+### 4-to_infinity_and_beyond
+- **Location:** `processes_and_signals/4-to_infinity_and_beyond`
+- **Description:** Displays "To infinity and beyond" indefinitely, with a 2-second pause between each iteration.
+- **Usage:**
+  ```bash
+  ./4-to_infinity_and_beyond
 
 
