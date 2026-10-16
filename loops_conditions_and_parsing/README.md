@@ -85,5 +85,10 @@
   - User info
 - **Usage:**
   ```bash
-  ./12-tell_the_story_of_passwd
-
+  .### 13-lets_parse_apache_logs
+- **Location:** `loops_conditions_and_parsing/13-lets_parse_apache_logs`
+- **Description:** Parses the `apache-access.log` file and displays visitor IP addresses along with their HTTP status codes using `awk`.
+- **Usage:**
+  ```bash
+  ./13-lets_parse_apache_logs | tail -n 10
+/12-tell_the_story_of_passwd
