@@ -37,3 +37,9 @@
 - **Usage:**
   ```bash
   ./7-clock | head -n 70
+### 8-for_ls
+- **Location:** `loops_conditions_and_parsing/8-for_ls`
+- **Description:** Lists the files in the current directory (excluding hidden files) using a `for` loop. Displays only the part of the filename after the first dash.
+- **Usage:**
+  ```bash
+  ./8-for_ls
