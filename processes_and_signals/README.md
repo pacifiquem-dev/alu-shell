@@ -39,4 +39,7 @@
 ### 7-highlander
 - **Location:** `processes_and_signals/7-highlander`
 - **Description:** Displays "To infinity and beyond" indefinitely, with a 2-second pause. Prints "I am invincible!!!" when receiving a SIGTERM signal.
+### 8-beheaded_process
+- **Location:** `processes_and_signals/8-beheaded_process`
+- **Description:** Kills the `7-highlander` process by sending a `SIGKILL` signal using `pkill`.
 
