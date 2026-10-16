@@ -48,4 +48,11 @@
   - **SIGTERM:** Prints "I hate the kill command", deletes the PID file, and terminates.
   - **SIGINT:** Prints "Y U no love me?!".
   - **SIGQUIT:** Deletes the PID file and terminates.
+### manage_my_process
+- **Location:** `processes_and_signals/manage_my_process`
+- **Description:** Writes "I am alive!" to `/tmp/my_process` indefinitely, pausing 2 seconds between each message.
+
+### 11-manage_my_process
+- **Location:** `processes_and_signals/11-manage_my_process`
+- **Description:** Init-style script to manage `manage_my_process`. Supports start, stop, and restart commands.
 
